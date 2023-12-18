@@ -12,13 +12,13 @@ Recreation of 3MTT Community training page using bootstrap framework.The Page co
 
 To run this project, copy the bootstrap css link to  the `<head>...</head>` section while the bootstrap jS and popper links to the `<body>...</body>` section like this:
 
-![Bootstrap cdn](/BOOTSTRAP/img/Bimg.PNG)
+![Bootstrap cdn](/img/Bimg.PNG)
 
 ## Tools Used In The Project
 
 [VSCODE DOWNLOAD HERE](https://code.visualstudio.com/)
 
-![VSCODE IMAGE](/BOOTSTRAP/img/vscode.jpg)
+![VSCODE IMAGE](/img/vscode.jpg)
 
 ## Materials Used In The Project
 
