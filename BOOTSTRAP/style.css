@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8ebf0;
+}
+
+#sidebar {
+   /* height: 100%;
+    width: 250px;*/
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #ffffff;
+    /*margin-left: 50px;*/
+}
+
+#sidebar a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #312f2f;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebar a:hover {
+    color: #17a2b8;
+}
+
+#sidebar .image {
+    margin-bottom: 20px;
+    /*margin-left: 75px;*/
+}
+#sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+#content {
+    margin-left: 330px;
+    padding: 25px;
+}
+.row{
+    align-items: center;
+}
+.card{
+    padding: 10px;
+    max-height: 25rem;
+
+}
+figure {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color: #666;
+}
+.card-img{
+margin-left: 90px;
+padding-left: 20px;
+}
+.card-text{
+    text-align: left;
+    margin: 0;
+    padding: 6px;
+}
+.card-text a{
+    text-decoration: none;
+    color:#666;
+    /*padding: 8px 8px 8px 16px;*/
+    text-align: center;
+}
+
+.card-text a:hover{
+    background-color: green;
+    color: #ffffff;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #content{
+        margin-left: 250px;
+        padding: auto;
+    }
+    .row{
+        display: flex;  ,,,
+    }
+    .card{
+        display: flex;
+        
+        padding: 10px;
+        max-height: 20rem;
+        max-width: 10rem;
+    
+    }
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .card{
+        display: flex;
+        padding: 10px;
+        max-height: 20rem;
+        max-width: 10rem;
+    
+    }
+    
+ 
+
+#sidebar span{
+    font-size: 10px;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+}
